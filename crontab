@@ -1,0 +1,4 @@
+/mnt/HDA_ROOT/.config
+*/5 * * * * /share/CACHEDEV1_DATA/Config/hosts.sh >> /var/log/hosts.log 2>&1
+*/5 * * * * /share/CACHEDEV1_DATA/Config/iso.sh >> /var/log/iso.log 2>&1
+*/5 * * * * /share/CACHEDEV1_DATA/Config/ziprar.sh >> /var/log/ziprar.log 2>&1
