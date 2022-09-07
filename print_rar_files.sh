@@ -15,6 +15,6 @@ walk_dir () {
     done
 }
 
-DOWNLOADING_DIR=/share/CACHEDEV6_DATA
+DIR=/share/CACHEDEV6_DATA
 
-walk_dir "$DOWNLOADING_DIR"
+walk_dir "$DIR"
