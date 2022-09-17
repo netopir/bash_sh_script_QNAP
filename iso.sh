@@ -5,7 +5,7 @@ if [ -d "$FILE" ]; then
     echo "$FILE is a directory."
 else 
     echo "$FILE does not exist."
-		mkdir /tmp/iso
+	mkdir /tmp/iso
 fi
 
 #old
